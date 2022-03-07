@@ -5,7 +5,10 @@ import { Counter } from "./components/Counter";
 function App() {
   return (
     <div className="App">
-      <Counter />
+      <h1>Inventory Management</h1>
+      <div className="container">
+        <Counter />
+      </div>
     </div>
   );
 }

@@ -11,19 +11,22 @@ export function Counter() {
   };
 
   return (
-    <div>
-      <h3>Counter: {counter}</h3>
-      <button onClick={() => handleChange(1)}>Add 1</button>
+    <div className="items">
+      <span>Books:</span>
+      <button className="addBook" onClick={() => handleChange(1)}>
+        +
+      </button>
       <button
+        className="remBook"
         onClick={() => {
           if (counter > 0) {
             handleChange(-1);
           }
         }}
       >
-        {" "}
-        Sub 1
+        -
       </button>
+      <span className="totalBooks">{counter}</span>
     </div>
   );
 }
