@@ -6,6 +6,24 @@
   display: flex;
 }
 
+span {
+  font-size: 30px;
+}
+
+.items {
+  background-color: antiquewhite;
+  margin: auto;
+  display: flex;
+  width: 500px;
+  flex-direction: column;
+}
+
+button {
+  width: 100px;
+  height: 30px;
+  margin: auto;
+  margin-top: 10px;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
